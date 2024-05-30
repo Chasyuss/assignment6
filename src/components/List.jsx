@@ -1,4 +1,4 @@
-import { memo } from "react";
+import { memo, useMemo } from "react";
 
 const List = ({ items }) => {
   console.log("List component rendered");
